@@ -1,0 +1,4 @@
+Options +FollowSymLinks -Indexes
+RewriteEngine On
+
+RewriteRule ^([0-9A-Za-z-]+)/?$ /cut_url/index.php?url=$1 [L,QSA]
